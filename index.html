@@ -8,8 +8,8 @@
 </head>
 <body>
   <header class="navbar">
-    <div class="navbar__logo">
-      <img class="navbar__logo-img" src="./images/airbnb-logo.jpg" alt="Airbnb Logo" />
+    <div class="navbar-logo">
+      <img class="navbar-logo-img" src="./images/airbnb-logo.jpg" alt="Airbnb Logo" />
       <h3>airbnb</h3>
     </div>
 
@@ -31,26 +31,34 @@
       <p>Unique homes, amazing experiences, and a place to belong.</p>
       <div class="hero-search">
         <div>
-    
-            <label for="destination">Where</label>
-            <input type="text" placeholder="Search destinations" />
+          <label for="destination">Where</label>
+          <input
+            type="text"
+            id="destination"
+            placeholder="Search destinations"/>
         </div>
 
         <div>
-            <label for="check in">Check in</label>
-            <input type="text" placeholder="Add dates" />
+          <label for="check-in">Check in</label>
+          <input
+            type="text"
+            id="check-in"
+            placeholder="Add dates"/>
         </div>
 
         <div>
-            <label for="check out">Check out</label>
-            <input type="text" placeholder="Add dates" />
+            <label for="check-out">Check out</label>
+            <input 
+              type="text"  
+              id="check-out" 
+              placeholder="Add dates" />
         </div>
 
         <div>
             <label for="guests">Guests</label>
-            <input type="text" placeholder="Add guests" />
+            <input type="text" id="guests" placeholder="Add guests" />
         </div>
-        <div class="hero__search__buttons">
+        <div class="hero-search-buttons">
             <button>Search</button>
         </div>
       </div>
@@ -87,7 +95,8 @@
         </div>
       </div>
     </section>
-   <footer>
+  </main>
+  <footer>
     <p>© 2026 Airbnb Armelle ngainkam nkuissi</p>
   </footer>
 </body>
